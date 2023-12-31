@@ -18,6 +18,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
+
 h1,
 h2,
 h3 {
