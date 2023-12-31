@@ -118,13 +118,54 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2, #cover-text> h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
-
 }
 
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
 
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
 
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg{
+    background: url('../images/reasons-image.webp') no-repeat top center/ cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -178,10 +219,10 @@ main {
     }
 
     /* hero */
-    #cover-text{
-        width:300px;
-        right:50px;
-        
+    #cover-text {
+        width: 300px;
+        right: 50px;
+
     }
 }
 
