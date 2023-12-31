@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
+    
     /*generic project styles*/
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu >li {
     margin-bottom: 1em;
 
 }
@@ -89,8 +89,10 @@ nav {
 /* Main Content */
 main {
     background-color: lightblue;
-    /* make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
+    
 }
 
 /* Footer */
